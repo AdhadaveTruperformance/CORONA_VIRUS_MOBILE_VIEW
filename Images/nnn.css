@@ -1,0 +1,105 @@
+.CoronaHeroPage {
+
+    width: 100%;
+    background: #F0ECF9;
+   
+}
+
+
+@media (max-width: 768px) {
+    .CoronaHeroPage {
+
+        width: 100%;
+        background: #F0ECF9;
+       
+    }
+
+    .heroBanner {
+      
+        flex-direction: column;
+    }
+
+    .text1 {
+        font-size: 1.5rem; 
+    }
+
+    .text3 {
+        font-size: 1.2rem; 
+    }
+
+    .para1 {
+        font-size: 0.9rem; 
+
+    .btn1 {
+        width: 100%; 
+        margin-top: 10px; 
+    }
+        .poster {
+            
+           display: none; 
+            
+        }
+        .para1
+        {
+            display: none;
+        }
+}
+}
+
+/* ... existing CSS ... */
+
+.CoroanvirusStatistics {
+    /* Existing styles */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .CoroanvirusStatistics {
+        /* Adjust styles for smaller screens */
+        text-align: center; /* Center text */
+    }
+    .heading1
+    {
+        margin-top: 400px;
+    }
+    .CoroanvirusStatistics .card-group {
+        flex-direction: column; /* Stack cards vertically */
+    }
+
+    .CoroanvirusStatistics .card {
+        margin-bottom: 20px; /* Add space between cards */
+    }
+}
+/* Add this to your CSS file */
+@media (max-width: 768px) {
+    .defineZigZag .position {
+        flex-direction: column; /* Stack elements vertically */
+    }
+    .defineZigZag .left, .defineZigZag .right {
+        width: 100%; /* Full width for both sections */
+         /* Center text for better readability */
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .left
+    {
+        margin-top: 300px;
+    }
+    .right
+    {
+        margin-top: 40px;
+        margin-left: 0;
+    }
+    .right1
+    {
+    
+      
+        flex-direction: column;
+    }
+    .defineZigZag .position1 {
+        flex-direction: column; /* Stack elements vertically */
+    }
+   
+}
