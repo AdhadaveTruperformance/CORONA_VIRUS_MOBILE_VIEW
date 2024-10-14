@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="Images/icons8-coronavirus-64.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .pricing-section {
+    padding: 40px 20px; 
+    background-color: #f8f9fa; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.pricing-section h2 {
+    color: #6F42C1;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 4%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pricing-section .card {
+    border-radius: 8px; 
+    transition: transform 0.3s;
+}
+
+.pricing-section .card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #6F42C1; 
+    font-weight: 700;
+}
+
+.card-price {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #28a745;
+    text-align: center;
+}
+
+.card-text {
+    color: #808081;
+}
+footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header id="Home"></header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#" style="font-weight: 800;font-size: 25px;">CORONA VIRUS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="symptoms.html">Symptoms</a>
+                        </li>
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="Pricing" class="pricing-section">
+        <div class="container">
+            <h2 class="text mb-4" style="font-weight: 800; font-size: 32px;">Pricing</h2>
+            <p class="text-justify">
+                We offer a variety of plans to suit your needs. Here are our pricing options:
+            </p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4" style="border: none; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                        <img src="Images/pexels-jakubzerdzicki-20232209.jpg" alt="Basic Plan" class="card-img-top" style="border-radius: 8px 8px 0 0;">
+                        <div class="card-body">
+                            <h3 class="card-title">Basic Plan</h3>
+                            <h4 class="card-price">$19/month</h4>
+                            <p class="card-text">
+                                Access to essential features and support.
+                            </p>
+                            <a href="confirmPlan.html" class="btn btn-primary">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4" style="border: none; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                        <img src="Images/pexels-leeloothefirst-7873553.jpg" alt="Standard Plan" class="card-img-top" style="border-radius: 8px 8px 0 0;">
+                        <div class="card-body">
+                            <h3 class="card-title">Standard Plan</h3>
+                            <h4 class="card-price">$49/month</h4>
+                            <p class="card-text">
+                                Includes all Basic features plus additional benefits.
+                            </p>
+                            <a href="confirmPlan.html" class="btn btn-primary">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4" style="border: none; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                        <img src="Images/pexels-anna-nekrashevich-6802042.jpg" alt="Premium Plan" class="card-img-top" style="border-radius: 8px 8px 0 0;">
+                        <div class="card-body">
+                            <h3 class="card-title">Premium Plan</h3>
+                            <h4 class="card-price">$99/month</h4>
+                            <p class="card-text">
+                                All Standard features plus premium support and services.
+                            </p>
+                            <a href="confirmPlan.html" class="btn btn-primary">Choose Plan</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 COVID-19 Awareness. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>

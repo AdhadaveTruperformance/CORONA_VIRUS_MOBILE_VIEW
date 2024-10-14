@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | COVID-19 Awareness</title>
+    <link rel="icon" href="Images/icons8-coronavirus-64.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        .section-title {
+            font-weight: 800;
+            font-size: 32px;
+            color: #6F42C1; /* Title color */
+            margin-bottom: 20px;
+        }
+        .section {
+            padding: 40px 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .contact-info img {
+            width: 30px;
+            height: auto;
+            margin-right: 10px;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .form-control {
+            margin-bottom: 20px;
+        }
+        .btn-primary {
+            background-color: #6F42C1;
+            border-color: #6F42C1;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" style="font-weight: 800; font-size: 25px;">CORONA VIRUS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="symptoms.html">Symptoms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Contact Section -->
+<div class="container my-4">
+    <div class="section">
+        <h2 class="section-title text-center">Contact Us</h2>
+        <p class="text-center">
+            Have any questions or concerns regarding COVID-19? Feel free to reach out to us through the contact form below, or visit us at one of our offices.
+        </p>
+
+        <!-- Contact Info -->
+        <div class="row contact-info">
+            <div class="col-md-6 text-center">
+                <img src="Images/5094676_gps_location_navigation_pin_icon.png" alt="Location Icon">
+                <h5>Our Office</h5>
+                <p>123 COVID Street, Health City, 56789</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="Images/8726191_phone_volume_icon.png" alt="Phone Icon">
+                <h5>Call Us</h5>
+                <p>+1 (555) 123-4567</p>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <h3 class="text-center mb-4">Get in Touch</h3>
+            <form action="submit-form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" class="form-control" rows="5" placeholder="Your message" required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Additional Support -->
+    <div class="section text-center">
+        <h3 class="section-title">Need Immediate Help?</h3>
+        <p>For urgent assistance, please visit your nearest health center or call the COVID-19 helpline at <strong>+1 (555) 987-6543</strong>.</p>
+        <a href="index.html#Centers" class="btn btn-primary">Find Nearest Centers</a>
+    </div>
+</div>
+
+<footer class="text-center py-4">
+    <p>&copy; 2024 COVID-19 Awareness. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
