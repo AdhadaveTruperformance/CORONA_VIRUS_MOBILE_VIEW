@@ -71,18 +71,59 @@
     </section>
     
     
-
-    <section class="CoronavirusStatistics m-5"  id="Pricing">
-        <div class="container"> 
+    <section class="CoronavirusStatistics m-5" id="Pricing">
+        <div class="container">
             <p class="heading1">Coronavirus Statistics</p>
-            <p class="heading2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+            <p class="heading2">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
     
-            <div class="row row-cols-1 row-cols-md-3 g-4 m-3">
+            <!-- Carousel for mobile -->
+            <div id="carouselStatistics" class="carousel slide d-md-none" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card text-center">
+                            <img src="Images/Vector (1).png" class="card-img-top" style="width: 50px; height: 40px; margin: 0 auto;" alt="Active Cases Icon">
+                            <div class="card-body">
+                                <h5 class="card-title active-cases">0</h5>
+                                <p class="card-text"><small class="text-body-secondary">Active Cases</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card text-center">
+                            <img src="Images/Vector (1).png" class="card-img-top" style="width: 50px; height: 40px; margin: 0 auto;" alt="Death Cases Icon">
+                            <div class="card-body">
+                                <h5 class="card-title death-cases">0</h5>
+                                <p class="card-text"><small class="text-body-secondary">Death Cases</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card text-center">
+                            <img src="Images/Vector (1).png" class="card-img-top" style="width: 50px; height: 40px; margin: 0 auto;" alt="Recovered Cases Icon">
+                            <div class="card-body">
+                                <h5 class="card-title recovered-cases">0</h5>
+                                <p class="card-text"><small class="text-body-secondary">Recovered Cases</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselStatistics" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselStatistics" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    
+            <!-- Regular Grid for larger screens -->
+            <div class="row row-cols-1 row-cols-md-3 g-4 m-3 d-none d-md-flex">
                 <div class="col">
                     <div class="card text-center">
-                        <img src="Images/Vector (1).png" class="card-img-top" style="width: 50px; height: 40px; margin: 0 auto;" alt="...">
+                        <img src="Images/Vector (1).png" class="card-img-top" style="width: 50px; height: 40px; margin: 0 auto;" alt="Active Cases Icon">
                         <div class="card-body">
-                            <h5 class="card-title" id="active-cases">0</h5>
+                            <h5 class="card-title active-cases">0</h5>
                             <p class="card-text"><small class="text-body-secondary">Active Cases</small></p>
                         </div>
                     </div>
@@ -90,9 +131,9 @@
     
                 <div class="col">
                     <div class="card text-center">
-                        <img src="Images/Vector (1).png" class="card-img-top" style="width: 50px; height: 40px; margin: 0 auto;" alt="...">
+                        <img src="Images/Vector (1).png" class="card-img-top" style="width: 50px; height: 40px; margin: 0 auto;" alt="Death Cases Icon">
                         <div class="card-body">
-                            <h5 class="card-title" id="death-cases">0</h5>
+                            <h5 class="card-title death-cases">0</h5>
                             <p class="card-text"><small class="text-body-secondary">Death Cases</small></p>
                         </div>
                     </div>
@@ -100,9 +141,9 @@
     
                 <div class="col">
                     <div class="card text-center">
-                        <img src="Images/Vector (1).png" class="card-img-top" style="width: 50px; height: 40px; margin: 0 auto;" alt="...">
+                        <img src="Images/Vector (1).png" class="card-img-top" style="width: 50px; height: 40px; margin: 0 auto;" alt="Recovered Cases Icon">
                         <div class="card-body">
-                            <h5 class="card-title" id="recovered-cases">0</h5>
+                            <h5 class="card-title recovered-cases">0</h5>
                             <p class="card-text"><small class="text-body-secondary">Recovered Cases</small></p>
                         </div>
                     </div>
@@ -112,7 +153,6 @@
     </section>
     
     
-
     <section class="defineZigZag" id="Symptoms">
         <div class="container"> 
             <!-- First ZigZag Section -->
@@ -165,7 +205,7 @@
     </section>
     
 
-     <section class="InfoBar m-5">
+     <section class="InfoBar" style="margin-top: 80px;">
         <div class="container"> 
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <div class="col">
@@ -307,7 +347,7 @@
     </section>
     
 
-    <section class="small-info" style="margin-top: 120px;">
+    <section class="small-info" style="margin-top: 50px;">
         <div class="container">
             <div class="row row-cols-1 text-center">
                 <div class="col">
@@ -323,7 +363,7 @@
         <div class="container">
             <div class="row">
                 <!-- Left Column: You Should Do / Avoid -->
-                <div class="col-md-6 avoid d-flex flex-wrap" style="margin-top: 100px;">
+                <div class="col-md-6 avoid d-flex flex-wrap" style="margin-top: 60px;">
                     <div class="col-md-6">
                         <h2 class="should">You should do</h2>
                         <ul class="list-unstyled">
@@ -446,7 +486,7 @@
                 <div class="col-md-8">
                     <p class="set">Stay at home and call your doctor: Amet minim mollit non deserunt ullam est sit aliqua dolor do amet sint.</p>
                 </div>
-                <div class="col-md-4 text-end">
+                <div class="col-md-4 text">
                     <!-- <button class="btn btn-primary">HELPLINE</button> -->
                     <button class="btn btn-primary" onclick="location.href='helpline.html'">HELPLINE</button>
 
@@ -529,7 +569,7 @@
         </div>
     </section>
    
-    <footer class="text-center text-lg-start p-5" style="background-color: #F8F5FC; margin-top: 80px;">
+    <footer class="text-center text-lg-start p-5" style="background-color: #F8F5FC; margin-top: 50px;">
         <div class="container p-4">
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                 <!-- About Column -->
